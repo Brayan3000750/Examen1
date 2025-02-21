@@ -10,7 +10,7 @@ import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
-import javax.swing.JComboBox;
+import javax.swing.JComboBox; 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -30,7 +30,7 @@ private JFrame frame;
     private JComboBox<String> accountTypeComboBox;
     private JTextArea outputTextArea;
 
-    public SocialMediaGUI() {
+    public Examen1() {
         frame = new JFrame("UberSocial");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(600, 400);
